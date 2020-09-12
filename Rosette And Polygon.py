@@ -2,7 +2,7 @@ import turtle
 t = turtle.Pen()
 turtle.bgcolor ("red")
 t.speed(0)
-sides = int(turtle.numinput("Number of sides" , "How many sides in your spiral ? " , 4))
+sides = int(turtle.numinput("Number of sides" , "How many sides in your spiral ? " , 5))
 for m in range (5,75) :
     t.left(360/sides + 5)
     t.width(m/25+1)

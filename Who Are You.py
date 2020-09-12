@@ -1,5 +1,5 @@
-name = input("What is your name ? ")
-if name == ("Harshi") :
+name = input("What is your name ? ") .upper()
+if name == ("HARSHI") :
     print("Hi")
     print("How are you ? ")
 else :

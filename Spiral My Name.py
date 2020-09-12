@@ -13,5 +13,5 @@ for x in range(360) :
     t.penup()
     t.forward(x * 4)
     t.pendown()
-    t.write(your_name, font = ("Times", int((x + 4) / 4), "bold"))
-    t.left (92)
+    t.write(your_name, font = ("Elgerian", int((x + 4) / 4), "bold"))
+    t.left (160)
