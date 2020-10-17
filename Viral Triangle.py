@@ -5,7 +5,7 @@ t.width(2)
 t.penup()
 turtle.bgcolor("black")
 # Ask the user for the number of sides to 4, min 2, max 6.
-sides = int (turtle.numinput("Number of sides", "How many sides in your spiral of spirals? (2-8)",4,2,8))
+sides = int (turtle.numinput("Number of sides", "How many sides in your spiral of spirals? (2-8)",4,1,8))
 colors = ["yellow","blue","orange","light green","pink","white","gold","indigo"]
 # Our outer spiral loop
 for m in range(100):
@@ -18,9 +18,9 @@ for m in range(100):
     for n in range(int(m/2)):
         t.pendown()
         t.pencolor(colors[n%sides])
-        t.forward(2*n)
-        t.right(360/sides + 1)
+        t.forward(4*n)
+        t.right(360/sides + 700)
         t.penup()
     t.setpos(position)      # Go back to the big spiral`s x location
     t.setheading(heading)   # Point in the big spiral`s heading
-    t.left(360/sides + 2)   # Aim at the next point on the big spiral     
+    t.left(360/sides + 100) # Aim at the next point on the big spiral     

@@ -1,7 +1,7 @@
 import random
 import turtle
 t = turtle.Pen()
-turtle.bgcolor ("blue")
+turtle.bgcolor ("black")
 t.speed(0)
 for n in range (200) :
     size = random.randint(10,70)
@@ -13,6 +13,6 @@ for n in range (200) :
     t.setpos(x,y)
     t.pendown()
     for m in range (size) :
-        t.pencolor("pink")
+        t.pencolor("gold")
         t.forward(m*2)
         t.right(200)

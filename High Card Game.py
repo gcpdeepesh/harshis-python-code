@@ -1,6 +1,6 @@
 import random
 suits = ["clubs", "diamonds", "hearts", "spades"]
-faces = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen", "king", "ace"]
+faces = ["two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "jack", "queen","king", "ace"]
 keep_going = True
 while keep_going:
     my_face = random.choice(faces)
